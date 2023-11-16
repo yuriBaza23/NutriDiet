@@ -56,7 +56,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { user: IUser, token: string }
     - 401: { message: string }
     - 500: { message: string }
-<br/>
+
 - GET /auth/history
   - Descrição: Rota usada para obter o histórico de login de um usuário
   - Header: { Authorization: string }
@@ -73,7 +73,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { user: IUser }
     - 400: { message: string }
     - 500: { message: string }
-<br/>
+
 - GET /user/:id
   - Descrição: Rota usada para obter os dados de um usuário
   - Header: { Authorization: string }
@@ -82,7 +82,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { user: IUser }
     - 403: { message: string }
     - 500: { message: string }
-<br/>
+
 - PUT /user
   - Descrição: Rota usada para atualizar os dados de um usuário
   - Header: { Authorization: string }
@@ -91,7 +91,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { user: IUser }
     - 403: { message: string }
     - 500: { message: string }
-<br/>
+
 - DELETE /user
   - Descrição: Rota usada para deletar um usuário
   - Header: { Authorization: string }
@@ -99,7 +99,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { user: IUser }
     - 403: { message: string }
     - 500: { message: string }
-<br/>
+
 - GET /user
   - Descrição: Rota usada para obter os dados de todos os usuários
   - Resposta:
@@ -116,7 +116,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { permission: IPermission }
     - 400: { message: string }
     - 500: { message: string }
-<br/>
+
 - GET /permission
   - Descrição: Rota usada para obter as permissões de um usuário
   - Header: { Authorization: string }
@@ -125,7 +125,7 @@ A interface de serviço é composta pelos seguintes serviços:
     - 200: { permission: IPermission }
     - 400: { message: string }
     - 500: { message: string }
-    
+
 #### Preferências alimentares
 - POST /foodPreference
   - Descrição: Rota usada para cadastrar uma preferência alimentar
