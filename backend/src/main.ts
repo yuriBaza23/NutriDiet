@@ -1,6 +1,6 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './infra/app.module';
-import { NutriDietLogger } from './infra/common/NutriDietLogger';
+import { AppModule } from './app.module';
+import { NutriDietLogger } from './common/NutriDietLogger';
 import { json, urlencoded } from 'express';
 
 async function bootstrap() {
